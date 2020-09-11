@@ -103,5 +103,14 @@ const data = [
     description: "Ahead, two relationship experts share the common exercises they often give to their clients. Whether you've been in a relationship for three months or 30 years, these techniques will help you and your S.O. get on same page so you can grow closer than ever before.",
     done: false,
     style: 'tehtävä',
+  },
+  {
+    author: 'Väestöliitonterapiapalvelut.fi',
+    url: 'https://vaestoliitonterapiapalvelut.fi/terapiapaketit/yritetaan-yhdessa-viela-pariterapiapaketti/',
+    title: "Yritetään yhdessä vielä -pariterapiapaketti",
+    description: "Moni pariskunta yrittää pitää kriiseilevää suhdetta kasassa pitkään ilman ulkopuolista apua. Joskus kriisi on pinnalla päivittäin, joskus se on pidempään pinnan alla kytevä asia, jonka käsittelyä pyritään välttelemään niin pitkään kuin mahdollista. Lopulta voimat loppuvat ja omat keinot on käytetty.",
+    done: false,
+    style: 'ammattiauttaja',
+    price: 'maksullinen',
   }
 ]
