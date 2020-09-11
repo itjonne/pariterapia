@@ -1,0 +1,11 @@
+.notDone {
+  border-style: solid;
+  border-color: red;
+}
+
+img:hover {
+  cursor: pointer;
+  border-style: solid;
+  border-color: green;
+  transition: 0.1s;
+}
