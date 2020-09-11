@@ -67,15 +67,15 @@ const teeKortti = ({author, title, description, url, done, style, price = 'ilmai
   const buttonView = document.createElement('button');
   buttonView.type = 'button';
   buttonView.className = "btn btn-sm btn-outline-secondary";
-  buttonView.textContent = 'Katso';
+  buttonView.textContent = 'Vieraile';
   buttonView.onclick = (e) => {
     e.preventDefault();
     window.open(url);
   }
 
   const buttonDone = document.createElement('button');
-  buttonDone.className = "btn btn-sm btn-outline-secondary";
-  buttonDone.textContent = 'Tehty';
+  buttonDone.className = done ? "btn btn-sm btn-outline-secondary" : "btn btn-sm btn-outline-secondary notDone";
+  buttonDone.textContent = done ? 'Tehty' : 'Ei tehty';
 
   const small = document.createElement('small');
   small.className = "text-muted";
